@@ -10,7 +10,14 @@
   </head>
   <body>
     <div id="app">
-      <h1>ciao</h1>
+      <h1>Dischi</h1>
+      <div class="cont">
+        <div v-for="disk in disks" class="contdischi">
+          <h3>{{disk.name}}</h3>
+          <h4>{{disk.artist}}</h4>
+          <h5>{{disk.year}}</h5>
+        </div>
+      </div>
     </div>
 
     <!-- vuejs -->
