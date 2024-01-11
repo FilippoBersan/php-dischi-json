@@ -10,12 +10,16 @@
   </head>
   <body>
     <div id="app">
-      <h1>Dischi</h1>
+      <header>
+        <div class="contheader">
+          <h1>Dischi</h1>
+    
+      </header>
       <div class="cont">
         <div v-for="disk in disks" class="contdischi">
           <h3>{{disk.name}}</h3>
           <h4>{{disk.artist}}</h4>
-          <h5>{{disk.year}}</h5>
+          <p>{{disk.year}}</p>
         </div>
       </div>
     </div>
